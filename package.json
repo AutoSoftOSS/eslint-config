@@ -1,0 +1,35 @@
+{
+  "name": "@autosoft/eslint-config",
+  "version": "0.1.0",
+  "description": "A base for projects that use ESLint.",
+  "main": "./.build/index.js",
+  "author": "Connor White",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "./.build/**/*.js",
+    "./.build/**/*.d.ts"
+  ],
+  "scripts": {
+    "build": "swc source -d .build && tsc --project ./tsconfig.json --incremental --emitDeclarationOnly"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
+    "eslint": "^8.29.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "types-eslintrc": "^1.0.3"
+  },
+  "devDependencies": {
+    "@autosoft/tsconfig": "*",
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.3.22",
+    "@types/node": "^18.11.13"
+  },
+  "eslintConfig": {
+    "extends": "./build/index.js"
+  }
+}
