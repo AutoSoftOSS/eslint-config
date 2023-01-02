@@ -25,7 +25,7 @@
   "scripts": {
     "build": "tsc --project ./tsconfig.json --incremental --module commonjs",
     "lint": "eslint source",
-    "release": "yarn --version"
+    "release": "yarn version"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.46.0",
