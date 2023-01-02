@@ -1,7 +1,7 @@
 /* eslint-disable max-lines */
 import { ESLintRules } from "types-eslintrc";
-import typescriptRules from "./typescript";
-import reactRules from "./react";
+import typescriptRules from "./typescript.js";
+import reactRules from "./react.js";
 
 export {
   typescriptRules,
@@ -35,7 +35,7 @@ const rules: ESLintRules = {
   "no-div-regex": "error",
   "no-else-return": "off",
   "no-empty-function": "off",
-  "no-empty": ["error", { "allowEmptyCatch": true }],
+  "no-empty": ["error", { allowEmptyCatch: true }],
   "no-eq-null": "error",
   "no-eval": "error",
   "no-extend-native": "error",
