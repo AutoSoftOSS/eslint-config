@@ -6,6 +6,18 @@
   "author": "Connor White",
   "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autosoftoss/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "lint",
+    "config",
+    "auto",
+    "autosoft",
+    "autorepo"
+  ],
   "files": [
     ".auto/build/**/*.js",
     ".auto/build/**/*.d.ts"
