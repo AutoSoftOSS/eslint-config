@@ -12,6 +12,7 @@
   ],
   "scripts": {
     "build": "tsc --project ./tsconfig.json --incremental --module commonjs",
+    "lint": "eslint source",
     "release": "yarn --version"
   },
   "dependencies": {
