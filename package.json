@@ -28,9 +28,9 @@
     "release": "yarn version"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.46.0",
-    "@typescript-eslint/parser": "^5.46.0",
-    "eslint": "^8.29.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "eslint": "^8.31.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-react": "^7.31.11",
@@ -38,8 +38,7 @@
     "types-eslintrc": "^1.0.3"
   },
   "devDependencies": {
-    "@autosoft/tsconfig": "*",
-    "@types/node": "^18.11.13"
+    "@autosoft/tsconfig": "^1.0.1"
   },
   "eslintConfig": {
     "extends": ".auto/build/index.js"

@@ -70,7 +70,7 @@ Now to run ESLint, run `yarn eslint source` or `npm run eslint source`.
 <h3 id="dev-dependencies">Dev Dependencies</h3>
 
 - [@autosoft/tsconfig](https://www.npmjs.com/package/@autosoft/tsconfig): A base for TypeScript projects.
-- [@types/node](https://www.npmjs.com/package/@types/node): TypeScript definitions for Node.js
+
 
 <br />
 
