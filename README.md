@@ -54,9 +54,25 @@ In your `package.json` file:
 }
 ```
 
-### ESLint
+### Running ESLint
 
 Now to run ESLint, run `yarn eslint source` or `npm run eslint source`.
+
+If you have [autorepo]() installed, `yarn auto lint source` or `npm run auto lint source` will also run ESLint.
+
+## Updates
+
+As this package updates, bug fixes are considered patch updates as usual.
+
+Rule changes are considered minor updates. Rule changes can cause linting errors in your code, If you want to avoid rule changes, you can set your package to use a specific minor version of this package with the `~` operator:
+
+```json
+{
+  "devDependencies": {
+    "@autosoft/eslint-config": "~1.1.0"
+  }
+}
+```
 
 <!--BEGIN FOOTER-->
 
@@ -73,17 +89,15 @@ Now to run ESLint, run `yarn eslint source` or `npm run eslint source`.
 - [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks): ESLint rules for React Hooks
 - [types-eslintrc](https://www.npmjs.com/package/types-eslintrc): Type checking for .eslintrc.json
 
-
 <br />
 
 <h3>Dev Dependencies</h3>
 
 - [@autosoft/tsconfig](https://www.npmjs.com/package/@autosoft/tsconfig): A base for TypeScript projects.
 
-
 <br />
 
 <h2 id="license">License <a href="https://opensource.org/licenses/MIT"><img align="right" alt="license" src="https://img.shields.io/npm/l/@autosoft/eslint-config.svg"></a></h2>
 
-[MIT](https://opensource.org/licenses/MIT)
+[MIT](https://opensource.org/licenses/MIT) - _MIT License_
 <!--END FOOTER-->
