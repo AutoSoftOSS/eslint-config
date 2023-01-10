@@ -197,7 +197,7 @@ const rules: ESLintRules = {
   "one-var": ["warn", "never"],
   "one-var-declaration-per-line": "error",
   "operator-assignment": "error",
-  "operator-linebreak": ["error", "after"],
+  "operator-linebreak": ["error", "before"],
   "padded-blocks": ["warn", "never"],
   "padding-line-between-statements": "error",
   "prefer-exponentiation-operator": "error",
