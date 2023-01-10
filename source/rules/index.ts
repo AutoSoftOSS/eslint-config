@@ -13,7 +13,7 @@ const rules: ESLintRules = {
   "no-console": ["error", { allow: ["warn", "error", "info"] }],
   "no-extra-parens": "off",
   "no-template-curly-in-string": "off",
-  "require-atomic-updates": "error",
+  "require-atomic-updates": "off",
   "accessor-pairs": "error",
   "array-callback-return": "warn",
   "block-scoped-var": "error",
