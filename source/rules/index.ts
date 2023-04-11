@@ -87,7 +87,7 @@ const rules: ESLintRules = {
   "no-label-var": "error",
   "no-restricted-globals": ["error", "closed", "event", "fdescribe", "name", "length", "location", "parent", "top"],
   "no-shadow": "warn",
-  "no-undef-init": "error",
+  "no-undef-init": "off",
   "no-undefined": "off",
   "no-use-before-define": "off",
   "callback-return": "error",
