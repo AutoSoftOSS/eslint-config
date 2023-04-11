@@ -2,6 +2,7 @@ import { ESLintRules } from "types-eslintrc";
 
 const rules: ESLintRules = {
   "@typescript-eslint/camelcase": "off",
+  "@typescript-eslint/consistent-type-imports": "error",
   "@typescript-eslint/explicit-function-return-type": "off",
   "@typescript-eslint/explicit-module-boundary-types": "off",
   "@typescript-eslint/no-empty-function": "off",
