@@ -187,7 +187,7 @@ const rules: ESLintRules = {
       ignoreComments: true // Set to `true` to support two trailing spaces to wrap TypeScript comments.
     }
   ],
-  "no-underscore-dangle": "warn",
+  "no-underscore-dangle": "off",
   "no-unneeded-ternary": "error",
   "no-whitespace-before-property": "error",
   "nonblock-statement-body-position": "error",
